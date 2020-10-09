@@ -26,7 +26,7 @@ mongoose.connect(process.env.URLBD, { useCreateIndex: true, useNewUrlParser: tru
     if (err) {
         return console.log(`Error en la conexión ${err}`);
     }
-    console.log('Conectado')
+    console.log('Conectado a la base de datos')
 
 })
 
